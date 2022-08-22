@@ -8,23 +8,28 @@
     <title>My Interactive Rainbow</title>
    
    <style>
-    #color1{
+    #container{
         background: white;
         border-style: solid;
+        width: auto;
+        height: auto;
     }
 
     </style>
 </head>
 <body>
 
-    <div id="color1" onclick="clickdiv(this, 'red')">RED</div>
-    <div id="color2">ORANGE</div>
-    <div id="color3">YELLOW</div>
-    <div id="color4">GREEN</div>
-    <div id="color5">BLUE</div>
-    <div id="color6">VIOLET</div>
-    <div id="color7">LIGHTPURPLE</div>
-    
+    <div id="container">
+
+        <div id="color1" onclick="clickdiv(this, 'red')">RED</div>
+        <div id="color2" onclick="clickdiv(this, 'orange')">ORANGE</div>
+        <div id="color3" onclick="clickdiv(this, 'yellow')">YELLOW</div>
+        <div id="color4" onclick="clickdiv(this, 'green')">GREEN</div>
+        <div id="color5" onclick="clickdiv(this, 'blue')">BLUE</div>
+        <div id="color6" onclick="clickdiv(this, 'purple')">LIGHT PURPLE</div>
+        <div id="color7" onclick="clickdiv(this, 'violet')">VIOLET</div>
+    </div>
+
     <script src="main.js"></script>
 </body>
 </html>
